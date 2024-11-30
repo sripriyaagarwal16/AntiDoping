@@ -1,0 +1,101 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Fix the navbar at the top */
+  top: 0; /* Keep it at the top of the page */
+  left: 0; /* Ensure it spans the full width */
+  right: 0; /* Ensure it spans the full width */
+  z-index: 1000; /* Ensure the navbar stays above other content */
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.navbar-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Enable wrapping for smaller screens */
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  transition: all 0.3s ease;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.nav-links li a:hover {
+  color: #3d454b; /* Changes text color on hover */
+  border-bottom: 2px solid #90a2b0; /* Adds a bottom border on hover */
+}
+
+.login-button {
+  background-color: #080f15;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 30px;
+  transition: all 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #dae0e6;
+  color: black;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .nav-links {
+      flex-direction: column; /* Stack links vertically */
+      gap: 10px;
+      align-items: center; /* Center align for stacked links */
+      display: none; /* Initially hide the links for mobile view */
+  }
+
+  .nav-links.show {
+      display: flex; /* Show links when toggled */
+  }
+
+  .login-button {
+      margin: 10px 0; /* Adjust spacing for stacked view */
+  }
+}
+
+/* Media Query for Very Small Screens */
+@media (max-width: 480px) {
+  .navbar {
+      padding: 10px; /* Reduce padding for small screens */
+  }
+
+  .logo {
+      height: 40px; /* Adjust logo size */
+  }
+
+  .login-button {
+      padding: 8px 16px; /* Reduce button size */
+      font-size: 14px;
+  }
+}
+
+/* Ensure content is not hidden behind the fixed navbar */
+body {
+  padding-top: 60px; /* Adjust this value based on the height of your navbar */
+}

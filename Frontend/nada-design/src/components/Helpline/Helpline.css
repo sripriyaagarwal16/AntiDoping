@@ -1,0 +1,59 @@
+.helpline-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  height: 370px;
+}
+
+.helpline-left {
+  max-width: 60%;
+}
+
+.helpline-number {
+  font-size: 2rem;
+  color: #00c8ff;
+  margin-bottom: 20px;
+}
+
+.contact-details {
+  margin-bottom: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.contact-item .icon {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.quick-links {
+  list-style: none;
+  padding: 0;
+}
+
+.quick-links li {
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.quick-links li:hover {
+  color: #00c8ff;
+}
+
+.helpline-right {
+  max-width: 35%;
+}
+
+.helpline-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  margin-top: 50px;
+}

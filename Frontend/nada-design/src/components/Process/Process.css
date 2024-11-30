@@ -1,0 +1,73 @@
+.process-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .process-left {
+    flex: 1;
+    max-width: 40%;
+  }
+  
+  .process-left h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: black;
+  }
+  
+  .process-left p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  
+  .process-button {
+    padding: 0.8rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .process-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .process-image {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .process-right {
+    flex: 1.5;
+    max-width: 55%;
+  }
+  
+  .process-step {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+  }
+  
+  .process-icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: #007bff;
+  }
+  
+  .process-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .process-content p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  

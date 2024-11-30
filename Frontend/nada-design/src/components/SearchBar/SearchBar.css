@@ -1,0 +1,68 @@
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px; /* Add smaller margins for better responsiveness */
+    flex-wrap: wrap; /* Ensure wrapping on smaller screens */
+}
+
+.search-bar {
+    width: 80%; /* Use a relative width */
+    max-width: 600px; /* Set a max width for larger screens */
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+    margin: 10px 0; /* Adjust margins for smaller screens */
+    margin-left:250px;
+    margin-top: 40px;
+}
+
+.search-bar:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+.search-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: -40px; /* Maintain alignment on larger screens */
+    margin-top: 0;
+}
+
+.search-button svg {
+    width: 24px;
+    height: 24px;
+    fill: #aaa;
+    transition: fill 0.3s ease;
+}
+
+.search-button:hover svg {
+    fill: #007bff;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+    .search-bar {
+        width: 90%; /* Reduce width for smaller screens */
+        margin-left: 0; /* Remove large margin for better centering */
+        margin-bottom: 50px;
+    }
+
+    .search-button {
+        margin-left: -30px; /* Adjust for smaller button placement */
+    }
+}
+
+/* Media Query for Very Small Screens */
+@media (max-width: 480px) {
+    .search-bar {
+        width: 100%; /* Full width for very small devices */
+    }
+
+    .search-button {
+        margin-left: -25px; /* Adjust alignment for smaller screens */
+    }
+}

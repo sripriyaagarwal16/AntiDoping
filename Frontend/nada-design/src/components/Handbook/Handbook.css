@@ -1,0 +1,257 @@
+.slider{
+    /* height:100vh;
+    position:relative; */
+    height: 550px; /* Fixed height for slides */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; /* To position below other elements */
+    overflow: hidden; /* Ensures nothing overflows */
+}
+ .slider .list .item{
+     position:absolute;
+     overflow:hidden;
+     inset:0 0 0 0;
+      opacity:0;
+     transition:0.5s;  
+     margin-top:50px;
+     width:100%;
+     height:500px;
+     margin-top:-50px;
+ }
+ .slider .list .item img{
+     width:100%;
+     height:100%;
+     object-fit: cover;
+     filter: brightness(0.8);
+
+ 
+ }
+ .slider .list .item img::after{
+   content:'';
+   width:100%;
+   height:100%;
+   position:absolute;
+   left:0;
+   bottom:0;
+   background-image: linear-gradient(to top,#000 40%,transparent);
+ 
+ }
+ 
+ .slider .list .item .content{
+     position:absolute;
+     left:10%;
+     top:10%;
+     width:500px;
+     max-width:80% ;
+     z-index: 1;
+ 
+ }
+
+ .slider .list .item .content p:nth-child(1){
+     text-transform: uppercase;
+     letter-spacing: 10px;
+ }
+ .slider .list .item.active{
+     opacity:1;
+     z-index:10;
+     
+ }
+ @keyframes animate{
+     from{
+         opacity:0;
+         transform:translate(0,100px);
+         filter:blur(33px);
+     }
+     to{
+         opacity:1;
+         transform:translate(0);
+         fileter:blur(0);
+     }
+ 
+ }
+ 
+ .item {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 40px;
+     width: 80%;
+ }
+ 
+ .content {
+     max-width: 50%;
+     margin-top:70px;
+ }
+ 
+ h1 {
+     font-size: 48px;
+     margin-bottom: 20px;
+     animation: animate 1s ease-in-out 1 forwards;
+     color:white;
+     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); 
+     font-weight: bolder;
+     text-align: left;
+
+ 
+ }
+ 
+ p {
+     font-size: 18px;
+     margin-bottom: 20px;
+     animation: animate 1s ease-in-out 1 forwards;
+     text-shadow: 1px 1px 2px rgba(240, 236, 236, 0.8); 
+ }
+ 
+ .cta-buttons {
+     display: flex;
+     gap: 20px;
+     animation: animate 1s ease-in-out 1 forwards;
+ 
+ }
+ 
+ .order-btn, .demo-btn {
+     padding: 15px 30px;
+     border: none;
+     cursor: pointer;
+     font-size: 16px;
+     background-color: #fff;
+     border: 2px solid #000;
+ }
+ .order-btn:hover{
+     background-color: #000;
+     color: #fff;
+ }
+ .demo-btn:hover {
+     background-color: #000;
+     color: #fff;
+ }
+ .cta-buttons{
+    margin-top: 20px; /* Add some spacing from other elements */
+    display: flex;
+    justify-content: flex-start; /* Align button to the left */
+ }
+ .buttons{
+     position: absolute;
+     right:300px;
+     z-index:100;
+     margin-top:-450px;
+     /* margin-right:-600px; */
+   
+ }
+ .buttons button{
+     width:40px;
+     height:35px;
+     border-radius: 8px;
+     border:none;
+     cursor:pointer;
+     margin:0 5px; 
+     border:1px solid black;
+     transition :0.3s;
+     background: #eee5;
+ }
+ .buttons  :hover{
+     background: white;
+     color:black;
+ }
+ .thumbnail{
+     position:absolute;
+     z-index:11;
+     display:flex;
+     gap:10px;
+     width:100%;
+     height:250px;
+     padding:0 50px;
+     box-sizing: border-box;
+     overflow: auto;
+     margin-top: -20px;
+ 
+ }
+ .thumbnail::-webkit-scrollbar{
+     width:0;
+ }
+ .thumbnail .item{
+     width:300px;
+     height:220px;
+     filter:brightness(.5);
+     transition:.5s;
+     flex-shrink: 0;
+     cursor:pointer;
+ }
+ .thumbnail .item img{
+    width:100%;
+    height:100%;
+    object-fit:cover ;
+    border-radius: 10px;
+ }
+ .thumbnail .item.active{
+     filter:brightness(1.2)
+ }
+ .contents{
+     position:absolute;
+     inset:auto 10px 10px 10px;
+     margin-left:50px;
+     margin-top:80px;
+ }
+ @media screen and (max-width:678px){
+     .thumbnail{
+         justify-content: start;
+     }
+     .slides .list .item .content h1{
+          font-size:60px;
+     }
+     .buttons{
+         top:10%;
+     }
+ }
+ .diet{
+     text-decoration: none;
+     width:140px;
+     height:30px;
+     background-color: white;
+     color: black;
+     text-align: center;
+     border:2px solid black;
+ }
+ .exercise{
+     text-decoration: none;
+     width:140px;
+     height:30px;
+     background-color: white;
+     color: black;
+     text-align: center;
+     border:2px solid black;
+ }
+ .diet:hover{
+     background-color: rgb(199, 196, 196);
+ }
+ .exercise:hover{
+     background-color: rgb(199, 196, 196);
+ }
+ .video-button {
+    margin-top: 20px; /* Add some spacing from other elements */
+    display: flex;
+    justify-content: flex-start; /* Align button to the left */
+}
+
+.video-button .Videos {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 40px; /* Elongated button size */
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white; /* Matches the cta-buttons style */
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transitions for hover effects */
+}
+
+.video-button .Videos:hover {
+    background-color: black; /* Invert colors on hover */
+    color: white;
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add subtle shadow */
+}

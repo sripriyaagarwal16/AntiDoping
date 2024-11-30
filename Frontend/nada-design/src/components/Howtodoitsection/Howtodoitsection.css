@@ -1,0 +1,144 @@
+ /* .how-we-do-it-section {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 20px; 
+    padding: 40px 20px; 
+    background-color: #fff; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+    margin: 20px auto; 
+    max-width: 1200px; 
+}
+
+.how-we-do-it-section h2 {
+    font-size: 2.5rem; 
+    font-weight: bold;
+    color: #333; 
+    text-align: left; 
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+
+.how-we-do-it-section .process {
+    flex: 1; 
+    max-width: 500px; 
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.how-we-do-it-section .process p {
+    font-size: 1.1rem; 
+    line-height: 1.8; 
+    color: #555;
+    margin-bottom: 20px; 
+}
+.how-we-do-it-section .process button {
+    display: inline-block;
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 25px; 
+    border: none; 
+    border-radius: 30px; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.how-we-do-it-section .process button:hover {
+    background-color: #0056b3; 
+}
+
+.how-we-do-it-section .steps {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+.how-we-do-it-section .steps img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15); 
+} */
+
+/* Howtodoitsection.css */
+.howtodoit-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    
+  }
+  .howtodoit-section.popped-up {
+    transform: translateY(-20px); /* Moves the section upwards */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */
+    z-index: 10; /* Ensures the popped-up section is above others */
+  }
+  .howtodoit-section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  .howtodoit-section.image-left .steps {
+    order: 1;
+  }
+  
+  .howtodoit-section.image-left .process {
+    order: 2;
+  }
+  
+  .howtodoit-section.image-right .steps {
+    order: 2;
+  }
+  
+  .howtodoit-section.image-right .process {
+    order: 1;
+  }
+  
+  .howtodoit-section .steps img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .howtodoit-section .process {
+    flex: 1;
+    padding: 0 20px;
+    background-color: #fff;
+  }
+  
+  .howtodoit-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .howtodoit-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .howtodoit-section button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .howtodoit-section button:hover {
+    background-color: #0056b3;
+  }
+  

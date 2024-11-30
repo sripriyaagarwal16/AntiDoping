@@ -1,0 +1,29 @@
+.potential-culprits {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .potential-culprits h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #e74c3c; /* Red color to grab attention */
+    text-transform: uppercase; /* All caps for emphasis */
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), -1px -1px 5px rgba(0, 0, 0, 0.2); /* Shadow behind text */
+    animation: fadeIn 2s ease-in-out; /* Animation effect */
+  }
+  
+  
+  
+  /* Add a fade-in animation for a smooth effect */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

@@ -1,6 +1,10 @@
-// src/data/questions.js
+// src/data/Questions.jsx
+import './question.css';
+
+
 export const quizData = [
   {
+    id: "intro",
     topic: "Introduction to Anti-Doping",
     background: "/assets/intro.jpg",
     questions: [
@@ -14,11 +18,20 @@ export const quizData = [
         ],
         answer: "Promote fair play",
       },
-      // Add more questions here
+      {
+        question: "Which organization is responsible for international anti-doping efforts?",
+        options: [
+          "WADA",
+          "FIFA",
+          "IOC",
+          "UEFA",
+        ],
+        answer: "WADA",
+      },
     ],
   },
   {
-   
+    id: "health",
     topic: "Health Risks of Doping",
     background: "/assets/health.jpg",
     questions: [
@@ -32,7 +45,16 @@ export const quizData = [
         ],
         answer: "Organ failure",
       },
-      // Add more questions here
+      {
+        question: "Which system is most commonly affected by steroid use?",
+        options: [
+          "Digestive system",
+          "Nervous system",
+          "Endocrine system",
+          "Respiratory system",
+        ],
+        answer: "Endocrine system",
+      },
     ],
   },
 ];

@@ -2,36 +2,31 @@ import React, { useState, useCallback } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import Timer from "./Timer";
 import { quizData } from "./Questions";
-import './Quiz.css';
-import './question.css';
 
 const Quiz = () => {
+  // 1. Hooks first
   const { topicId } = useParams();
   const navigate = useNavigate();
-  
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
 
-  const topicData = quizData.find(topic => topic.id === topicId);
-  
-  // Moved useCallback to top level
+  // 2. Callbacks and event handlers with useCallback
   const handleTimeUp = useCallback(() => {
     setShowScore(true);
   }, []);
 
-  const handleOptionClick = (selectedOption) => {
-    if (selectedAnswer !== null) return; // Prevent multiple selections
-    
+  const handleOptionClick = useCallback((selectedOption) => {
+    if (selectedAnswer !== null) return;
+
     setSelectedAnswer(selectedOption);
-    const correct = selectedOption === topicData?.questions[currentQuestion]?.answer;
+    const isCorrect = selectedOption === topicData?.questions[currentQuestion]?.answer;
     
-    if (correct) {
-      setScore(score + 1);
+    if (isCorrect) {
+      setScore(prev => prev + 1);
     }
 
-    // Move to next question after delay
     setTimeout(() => {
       const nextQuestion = currentQuestion + 1;
       if (nextQuestion < topicData?.questions?.length) {
@@ -41,16 +36,19 @@ const Quiz = () => {
         setShowScore(true);
       }
     }, 1000);
-  };
+  }, [currentQuestion, selectedAnswer, topicData]);
 
-  const restartQuiz = () => {
+  const restartQuiz = useCallback(() => {
     setCurrentQuestion(0);
     setScore(0);
     setShowScore(false);
     setSelectedAnswer(null);
-  };
+  }, []);
 
-  // Early return for invalid topic
+  // 3. Data fetching/processing
+  const topicData = quizData.find(topic => topic.id === topicId);
+
+  // 4. Conditional renders
   if (!topicData) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -94,6 +92,7 @@ const Quiz = () => {
     );
   }
 
+  // 5. Main render
   return (
     <div className="min-h-screen bg-gray-50 py-8 px-4">
       <div className="max-w-2xl mx-auto">

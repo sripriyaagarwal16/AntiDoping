@@ -8,25 +8,33 @@ import Navbar from './components/Navbar/Navbar';
 import Assesment from './pages/Assesment';
 import HandBook from './pages/HandBook';
 import Quiz from "./components/Quiz/Quiz";
-
-// import About from './pages/About';
+import TopicList from './components/Quiz/TopicList';
 
 const App = () => {
   return (
     <Router>
-      <Navbar/>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/about" element={<About />} /> */}
         <Route path="/about" element={<About />} />
-        <Route path="/player" element={<Player/>} />
-        <Route path="/login" element={<Login/>} />
+        <Route path="/player" element={<Player />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/assessment/:playerId" element={<Assesment />} />
-        <Route path="/handbook" element={<HandBook/>} />
+        <Route path="/handbook" element={<HandBook />} />
+        
+        {/* Quiz Routes */}
+        <Route path="/quiz" element={<TopicList />} /> {/* Show quiz topics */}
+        <Route path="/quiz/:topicId" element={<Quiz />} /> {/* Individual quiz */}
 
-       
-        <Route path="/quiz/:id" element={<Quiz />} />    
-
+        {/* 404 Route - Keep it last */}
+        <Route path="*" element={
+          <div className="min-h-screen flex items-center justify-center">
+            <div className="text-center">
+              <h1 className="text-4xl font-bold mb-4">404</h1>
+              <p className="text-xl">Page not found</p>
+            </div>
+          </div>
+        } />
       </Routes>
     </Router>
   );

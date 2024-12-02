@@ -1,0 +1,42 @@
+.affiliates-list {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .affiliates-list h4 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #333;
+  }
+  
+  .affiliate {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    gap: 12px;
+  }
+  
+  .affiliate img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .affiliate h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    color: #222;
+  }
+  
+  .affiliate p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #666;
+  }
+  

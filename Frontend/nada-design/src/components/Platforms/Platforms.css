@@ -1,0 +1,92 @@
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f8ff;
+  }
+  
+  .card {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    border: 1px solid #0b0b0b;
+    
+  }
+  
+  .icon img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 1.1em;
+    color: #333;
+    text-transform: uppercase;
+  }
+  .whatsapp-link {
+    display: inline-block; /* Makes it behave like a block but keeps it inline */
+    padding: 10px 20px; /* Adds padding around the text */
+    background-color: #1ae966; /* WhatsApp green background */
+    color: white; /* White text color */
+    text-decoration: none; /* Removes underline from the text */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Adjust the font size */
+    font-weight: bold; /* Makes the text bold */
+    border: none; /* Removes button border */
+    cursor: pointer; /* Makes the cursor a pointer when hovered */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    height:35px;
+  }
+  
+  .whatsapp-link:hover {
+    background-color: #128C7E; /* Darker shade of WhatsApp green on hover */
+  }
+  .gmail-link {
+    display: inline-block; /* Makes it behave like a block but keeps it inline */
+    padding: 10px 20px; /* Adds padding around the text */
+    background-color: #7356e9; /* Gmail red background */
+    color: white; /* White text color */
+    text-decoration: none; /* Removes underline from the text */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Adjust the font size */
+    font-weight: bold; /* Makes the text bold */
+    border: none; /* Removes button border */
+    cursor: pointer; /* Makes the cursor a pointer when hovered */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    height:35px;
+    width:250px;
+
+  }
+  
+  .gmail-link:hover {
+    background-color: #4d42ec; /* Darker shade of Gmail red on hover */
+  }
+  /* Streamlit Link Button */
+.streamlit-link {
+  background-color: #FF4B00; /* Streamlit's primary color */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Add padding around the text */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline from link */
+  font-size: 16px; /* Set font size */
+  font-weight: bold; /* Make the text bold */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+  width:250px;
+  height:35px;
+
+
+}
+
+/* Streamlit Link Button Hover Effect */
+.streamlit-link:hover {
+  background-color: #e64a00; /* Darker shade of Streamlit color on hover */
+}

@@ -1,7 +1,10 @@
 import React from 'react';
 import './SearchBar.css';
+import { useTranslation } from 'react-i18next'; // Import i18next hook to handle language change
 
 const SearchBar = () => {
+    const { t } = useTranslation(); 
+
     return (
         <div className="nav-right">
             <input
@@ -23,7 +26,9 @@ const SearchBar = () => {
                     />
                 </svg>
             </button>
-        </div>
+            <a href="/prevdata" className="Prevdata">{t('Player Data.prevyear')}</a>
+            </div>
+
     );
 };
 

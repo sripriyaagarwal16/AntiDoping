@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .create-event-btn {
+    padding: 10px 15px;
+    background-color: #6200ee;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .main-content {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .calendar-container {
+    flex: 1;
+  }
+  
+  .calendar .dates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .calendar .dates .active {
+    font-weight: bold;
+    background-color: #f0f0f0;
+  }
+  
+  .cases-list {
+    flex: 2;
+  }
+  
+  .case-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .affiliates-list {
+    flex: 1;
+  }
+  
+  .affiliate-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  

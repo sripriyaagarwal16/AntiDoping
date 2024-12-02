@@ -76,6 +76,7 @@
     border-radius: 8px;
     margin: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
     
   }
   .howtodoit-section.popped-up {
@@ -91,7 +92,7 @@
     order: 1;
   }
   
-  .howtodoit-section.image-left .process {
+  .howtodoit-section.image-left .proces {
     order: 2;
   }
   
@@ -99,7 +100,7 @@
     order: 2;
   }
   
-  .howtodoit-section.image-right .process {
+  .howtodoit-section.image-right .proces {
     order: 1;
   }
   
@@ -109,7 +110,7 @@
     border-radius: 8px;
   }
   
-  .howtodoit-section .process {
+  .howtodoit-section .proces {
     flex: 1;
     padding: 0 20px;
     background-color: #fff;

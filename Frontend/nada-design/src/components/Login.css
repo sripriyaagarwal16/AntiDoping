@@ -33,14 +33,15 @@ body {
     padding: 20px;
   }
   
-  h1 {
+ .login-form-container h1 {
     text-align: center;
     color: #000;
     margin-bottom: 20px;
+    font-size: xxx-large;
   }
   
   
-  .highlight {
+  .highl {
     color: #ffa500; /* Yellow color for the highlighted text */
   }
   .login{

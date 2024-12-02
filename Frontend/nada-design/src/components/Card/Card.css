@@ -47,7 +47,7 @@ h2 {
 }
 
 /* Card styling */
-.card {
+.cards {
   background: #f0f0f0;
   padding: 12px;
   border-radius: 8px;
@@ -60,7 +60,7 @@ h2 {
   margin: 0 10px; /* Reduced margin between cards */
 }
 
-.card:hover {
+.cards:hover {
   transform: translateY(-3px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
@@ -101,6 +101,7 @@ h2 {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  margin-top:30px;
 }
 
 .card-content p {

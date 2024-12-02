@@ -1,0 +1,109 @@
+{
+    "navbar": {
+      "home": "Home",
+      "About Us": "About Us",
+      "Player Data": "Player Data",
+      "Handbook": "Handbook",
+      "whistleblower": "Whistleblower",
+      "Collaborate": "Collaborate",
+      "login":"Login",
+      "language":"Language"
+    },
+
+   "home": {
+    "heading": "National Anti Doping Agency, India",
+    "play-fair":"#Playfair",
+    "introduction": "National Anti Doping Agency, India is an autonomous body under the Ministry of Youth Affairs & Sports, Government of India. NADA India implements the anti-doping program in India and works towards promoting clean sport practices across the country.",
+    "key_areas": "The key areas of functioning include Sample Collection, Results Management, Anti-Doping Education, and Research & Investigations. NADA upholds the values of ethics and integrity in sports and is committed to creating a dope-free sporting environment.",
+    "values": "NADA upholds the values of ethics and integrity in sports and is committed to creating a dope-free sporting environment.",
+    "helpline": "Help Line: 1800 11 9919",
+    "address": "📍 Ramp No. 02, Hall No. 103-104, Jawaharlal Nehru Stadium Complex, Lodhi Road, New Delhi – 110003.",
+    "contact": {
+      "phone": "📞 +91-11-24368274",
+      "email": "✉️ info.nada@nic.in"
+    },
+    "guidelines": "Guidelines",
+    "rules_and_regulations": "Rules and Regulations",
+    "prohibited_substances": "Prohibited Substances",
+    "rti": "RTI",
+    "legal_aid": "Legal Aid",
+    "faq": "FAQ"
+  },
+    "About Us": {
+          "heading": "LET'S TAKE A STEP TOWARDS FAIR GAME",
+          "subheading": "HOW WE DO IT",
+          "how_we_do_it": "The process begins with athlete selection and notification, followed by reporting to the doping control station. The athlete chooses a vessel, provides urine samples, chooses its volume, and splits it. Once the sample is sealed, specific gravity is measured, and the doping control form is completed. Finally, the sample undergoes analysis.",
+          "cta": "View More",
+          "what_we_do_heading": "WHAT WE DO",
+          "what_we_do": "We focus on promoting fair competition by preventing the use of performance-enhancing drugs in sports. Key activities include:",
+          "substance_testing": "Substance Testing",
+          "doping_awareness": "Doping Awareness",
+          "violation_investigations": "Violation Investigations",
+          "rule_enforcement": "Rule Enforcement",
+          "collaborations_heading": "COLLABORATIONS",
+          "collaborations": "NADA India collaborates closely with both national and international stakeholders to uphold clean sport practices, sharing anti-doping resources and enhancing collective efforts for fair play. Our partnerships with WADA, INADO, AIU, ITA, RADO, and NADO offer a solid foundation for innovation, research, and advancement in anti-doping efforts.",
+          "teamwork_heading": "Teamwork",
+          "global_collaboration": "Global Collaboration",
+          "advancing_research": "Advancing Research",
+          "athlete_education": "Athlete Education Programs",
+          "strengthening_testing": "Strengthening Testing Protocols",
+          "data_driven": "Data-Driven Strategies",
+          "testing_athletes": "Testing athletes for prohibited substances.",
+          "educating_athletes": "Educating athletes about banned substances.",
+          "investigating_violations": "Investigating doping violations.",
+          "enforcing_rules": "Enforcing anti-doping rules.",
+          "partnering_with_organizations": "Partnering with global organizations such as WADA and INADO to align with international anti-doping standards.",
+         "innovative_research": "Engaging in innovative research to develop more efficient testing methods and anti-doping techniques.",
+         "organizing_workshops": "Organizing workshops, webinars, and campaigns to educate athletes, coaches, and sports personnel on banned substances and fair play principles.",
+         "expanding_testing_measures": "Expanding testing measures with state-of-the-art facilities and ensuring compliance with global standards.",
+         "using_data_analytics": "Using advanced data analytics and intelligence to identify doping trends and prevent violations effectively."
+    },
+      
+      
+    "Player Data": {
+      "alleged_doper": "Alleged Doper",
+      "prevyear":"Previous Year Data"
+    },
+    "handbook": {
+        "introduction_to_anti_doping": "Introduction to Anti-Doping",
+        "quiz": "Quiz",
+        "articles": "Articles",
+        "videos": "Videos",
+        "health_risks_of_doping": "Health Risks of Doping",
+  "anti_doping_rules_and_regulations": "Anti-Doping Rules and Regulations",
+  "ethics_and_fair_play_in_sports": "Ethics and Fair Play in Sports",
+  "the_testing_process": "The Testing Process",
+  "athletes_rights_and_responsibilities": "Athletes' Rights and Responsibilities",
+  "real_life_stories_and_case_studies": "Real-Life Stories and Case Studies",
+  "how_to_avoid_doping_traps": "How to Avoid Doping Traps",
+  "the_role_of_coaches_and_support_staff": "The Role of Coaches and Support Staff",
+  "future_of_anti_doping": "Future of Anti-Doping"
+    },
+    "whistleblower": {
+    "heading": "REVEAL - MAKE YOUR REPORT FOR FAIRNESS IN SPORT",
+    "share_info_confidentially": "Share your information confidentially with the experts. Your report will remain secure, and you can choose to stay anonymous. Help protect the integrity of sports—your input matters!",
+    "secure_platform": "Secure Platform",
+    "upload_proof": "UPLOAD YOUR PROOF",
+    "go_to_streamlit": "Go to Streamlit App",
+    "whatsapp_messaging": "WHATSAPP MESSAGING",
+    "chat_on_whatsapp": "Chat on WhatsApp",
+    "anonymous_email": "ANONYMOUS EMAIL",
+    "email_nada": "Email Nada",
+    "whatsapp_number": "The quickest way of sharing information",
+    "why_report": "WHY SHOULD YOU REPORT?",
+    "role_of_whistleblower": "Your Role as a Whistleblower is Crucial",
+    "why_vigilance": "Every piece of information you provide could be the missing link in safeguarding the integrity and fairness of sport. By reporting suspicious activities or potential rule violations, you help us create a level playing field for all athletes.",
+    "all_info":"All information shared through our secure communication channels will be handled with the utmost care and confidentiality. Only authorized intelligence and investigation experts will access and process your report, ensuring your identity and details remain protected at all times.",
+    "Why_report":"Why Report?",
+    "vigilence":"Your vigilance contributes to protecting clean athletes and upholding the values of transparency and fairness in sport. Even the smallest detail could make a significant difference in uncovering violations or preventing misconduct.",
+    "language_is_not_a_barrier": "Language is Not a Barrier",
+    "language":"Feel free to report in your native language — we have the resources to ensure your concerns are fully understood and addressed. Together, we can protect the spirit of sport."
+  },
+    "contact": {
+      "heading": "Contact Us",
+      "email": "Email Us",
+      "phone": "Call Us",
+      "address": "Visit Our Office"
+    }
+  }
+  

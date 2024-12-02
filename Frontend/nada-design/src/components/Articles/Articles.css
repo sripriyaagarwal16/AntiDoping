@@ -1,0 +1,92 @@
+/* General styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  .head {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .head h1{
+    color:black;
+  }
+  
+  .head .high {
+    color: #4a854b; /* Greenish color */
+  }
+  
+  .head .subheading {
+    color: #6c757d; /* Grayish color */
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-top: 5px;
+  }
+  
+  /* Columns container */
+  .columns {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Left column styling */
+  .left-column,
+  .center-column,
+  .right-column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .left-column p,
+  .center-column p,
+  .right-column p {
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  
+  /* Highlight box */
+  .center-column .highlight-box {
+    background-color: #4a854b; /* Greenish background */
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Scarf image styling */
+  .scarf-image {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Website link */
+  .right-column .website {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #4a854b;
+  }
+  .left-column h3{
+    color: green;
+  }
+  .left-column .highlight1{
+    color:black;
+  }
+  .left-column h2{
+    text-align: left;
+  }
+  .highlight-box h2{
+    color:aliceblue
+  }

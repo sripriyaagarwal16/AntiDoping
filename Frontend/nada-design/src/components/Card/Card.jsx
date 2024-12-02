@@ -3,14 +3,12 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './Card.css'; // Custom CSS file for styling if needed
-import investigation1 from '../../assets/Basketball.png';
-import investigation2 from '../../assets/tabletennis.png';
-import investigation3 from '../../assets/badminton.png';
+
 const InvestigationHighlights = () => {
   const highlights = [
     {
       id: 1,
-      image: investigation1, // Replace with the actual image URL
+      image: "https://static.nike.com/a/images/f_auto,cs_srgb/w_1536,c_limit/da7b55ce-5d48-40d1-9b3c-e075e44139ff/image.png", // Replace with the actual image URL
       title: 'AI Uncovers Doping Scandal in Basketball League',
       date: '04 June 2024',
       author: 'Jake Will.',
@@ -20,7 +18,7 @@ const InvestigationHighlights = () => {
     },
     {
       id: 2,
-      image: investigation2, // Replace with the actual image URL
+      image: "https://cdn.britannica.com/44/256944-050-8D414329/PV-Sindhu-2020-Tokyo-Olympics.jpg", // Replace with the actual image URL
       title: 'Hockey Player Faces Doping Probe After Suspicious Test Results',
       date: '03 June 2024',
       author: 'Foxi.zacon',
@@ -30,7 +28,7 @@ const InvestigationHighlights = () => {
     },
     {
       id: 3,
-      image: investigation3, // Replace with the actual image URL
+      image: "https://static.toiimg.com/thumb/msid-79125381,width-400,resizemode-4/79125381.jpg", // Replace with the actual image URL
       title: 'Top Badminton Star Under Investigation for Potential Doping',
       date: '01 June 2024',
       author: 'Bong Lozada',
@@ -67,7 +65,7 @@ const InvestigationHighlights = () => {
       <h2>Investigation Highlights</h2>
       <Slider {...settings}>
         {highlights.map((highlight) => (
-          <div key={highlight.id} className="card">
+          <div key={highlight.id} className="cards">
             <img src={highlight.image} alt={highlight.category} className="card-image" />
             <div className="card-content">
               <span className="category">{highlight.category}</span>

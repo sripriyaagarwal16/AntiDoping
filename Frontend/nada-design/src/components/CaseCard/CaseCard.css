@@ -1,0 +1,57 @@
+.case-card {
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  
+  .case-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .case-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .case-info span {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  
+  .status {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .status.under-investigation {
+    background-color: #f39c12;
+  }
+  
+  .status.completed {
+    background-color: #27ae60;
+  }
+  
+  .status.pending {
+    background-color: #e74c3c;
+  }
+  
+  .members {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .members img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  

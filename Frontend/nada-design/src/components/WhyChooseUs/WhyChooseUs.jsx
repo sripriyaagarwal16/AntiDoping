@@ -1,40 +1,42 @@
 import React from "react";
 import "./WhyChooseUs.css";
+import { useTranslation } from 'react-i18next';
 
 const WhyChooseUs = () => {
+  const { t } = useTranslation();
+
   const features = [
     {
-      title: " Substance Testing",
+      title: t('About Us.substance_testing'),
       description:
-        "Testing athletes for prohibited substances.",
+      t('About Us.testing_athletes'),
       icon: "🧪",
     },
     {
-      title: " Doping Awareness",
+      title: t('About Us.doping_awareness'),
       description:
-        "Educating athletes about banned substances.",
+      t('About Us.educating_athletes'),
       icon: "📚",
     },
     {
-      title: "Violation Investigations",
+      title:t('About Us.violation_investigations'),
       description:
-        "Investigating doping violations.",
+      t('About Us.investigating_violations'),
       icon: "🔍",
     },
     {
-      title: "Rule Enforcement",
+      title:t('About Us.rule_enforcement'),
       description:
-        "Enforcing anti-doping rules.",
+      t('About Us.enforcing_rules'),
       icon: "⚖️",
     },
   ];
 
   return (
     <div className="why-choose-us">
-      <h1>WHAT WE DO</h1>
+      <h1>{t('About Us.what_we_do_heading')}</h1>
       <p>
-      We focus on promoting fair competition by preventing the use of performance-enhancing drugs in sports. Key activities include:
-      </p>
+      {t('About Us.what_we_do')}      </p>
       <div className="features-container">
         {features.map((feature, index) => (
           <div className="feature-card" key={index}>

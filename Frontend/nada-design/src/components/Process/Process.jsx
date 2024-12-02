@@ -1,47 +1,50 @@
 import React from "react";
 import "./Process.css";
+import { useTranslation } from 'react-i18next';
 
 import computers from "../../assets/Computers.png"
 const Process = () => {
+  const { t } = useTranslation();
+
   const steps = [
     {
-        title: "Global Collaboration",
+        title: t('About Us.global_collaboration'),
         description:
-          "Partnering with global organizations such as WADA and INADO to align with international anti-doping standards.",
+        t('About Us.partnering_with_organizations'),
         icon: "🌍",
       },
       {
-        title: " Advancing Research",
+        title: t('About Us.advancing_research'),
         description:
-          "Engaging in innovative research to develop more efficient testing methods and anti-doping techniques.",
+        t('About Us.innovative_research'),
         icon: "📈",
       },
       {
-        title: "Athlete Education Programs",
+        title: t('About Us.athlete_education'),
         description:
-          "Organizing workshops, webinars, and campaigns to educate athletes, coaches, and sports personnel on banned substances and fair play principles.",
+        t('About Us.organizing_workshops'),
         icon: "📚",
       },
       {
-        title: " Strengthening Testing Protocols",
+        title: t('About Us.strengthening_testing'),
         description:
-          "Expanding testing measures with state-of-the-art facilities and ensuring compliance with global standards.",
-        icon: "🔍",
+        t('About Us.expanding_testing_measures'),
+         icon: "🔍",
       },
       {
-        title: " Data-Driven Strategies",
+        title:t('About Us.data_driven'),
         description:
-          "Using advanced data analytics and intelligence to identify doping trends and prevent violations effectively.",
-        icon: "📊",
+        t('About Us.using_data_analytics'),     
+         icon: "📊",
       },
   ];
 
   return (
     <div className="process-container">
       <div className="process-left">
-        <h1> COLLABORATIONS</h1>
+        <h1>{t('About Us.collaborations_heading')}</h1>
         <p>
-        ADA India collaborates closely with both national and international stakeholders to uphold clean sport practices, sharing anti-doping resources and enhancing collective efforts for fair play. Our partnerships with WADA, INADO, AIU, ITA, RADO, and NADO offer a solid foundation for innovation, research, and advancement in anti-doping efforts.
+        {t('About Us.collaborations')}
         </p>
        
         <img

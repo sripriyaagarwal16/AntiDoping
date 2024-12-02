@@ -52,6 +52,7 @@
   cursor: pointer;
   margin-right: 30px;
   transition: all 0.3s ease;
+  text-decoration: none;
 }
 
 .login-button:hover {
@@ -98,4 +99,64 @@
 /* Ensure content is not hidden behind the fixed navbar */
 body {
   padding-top: 60px; /* Adjust this value based on the height of your navbar */
+}
+/* The container holding the dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style for the dropdown button */
+.dropdown-btn {
+  background-color: #4CAF50; /* Green color */
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/* Button hover effect */
+.dropdown-btn:hover {
+  background-color: #45a049;
+}
+
+/* The dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+
+/* Style for each option in the dropdown */
+.dropdown-content button {
+  color: black;
+  padding: 10px 20px;
+  text-align: left;
+  background-color: #f9f9f9;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Button hover effect */
+.dropdown-content button:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown content when hovering over the dropdown */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background of the dropdown button when hovering */
+.dropdown:hover .dropdown-btn {
+  background-color: #45a049;
 }

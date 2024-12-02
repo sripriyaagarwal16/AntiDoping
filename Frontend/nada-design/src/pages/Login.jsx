@@ -16,7 +16,7 @@ const Login = () => {
       {/* Right Section with Form */}
       <div className="login-form-container">
         <h1>
-          <span className="highlight">Keep calm and avoid doping</span>
+          <span className="highl">Keep calm and avoid doping</span>
         </h1>
         <h2>
           <span className="login">Login</span>

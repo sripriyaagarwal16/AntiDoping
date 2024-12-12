@@ -91,25 +91,13 @@ const Assessment = () => {
           <tr>
             <th>Suspicious Travel</th>
             <th>Positive Doping Test</th>
-            <th>Risk Category</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>{player.suspiciousTravel}</td>
             <td>{player.positiveDopingTest}</td>
-            <td
-              style={{
-                color:
-                  player.riskCategory === "High"
-                    ? "red"
-                    : player.riskCategory === "Medium"
-                    ? "orange"
-                    : "green",
-              }}
-            >
-              {player.riskCategory}
-            </td>
+           
           </tr>
         </tbody>
       </table>

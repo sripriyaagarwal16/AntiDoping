@@ -1,0 +1,64 @@
+/* App.css
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    height: 100vh; 
+  }
+   */
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .ant-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    width: 100%;  /* Card will take up full width */
+  }
+  
+  .ant-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .ant-card-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .ant-tag {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .ant-progress {
+    margin-top: 10px;
+  }
+  
+  .ant-card-title {
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  .complaint-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /* Stack the cards vertically */
+    align-items: center;
+    padding: 20px;
+    height: 100%; /* Ensures container takes up full height */
+    overflow-y: auto; /* Allows scrolling if content overflows */
+  }
+  
+  .complaint-card-container {
+    display: flex;
+    flex-direction: column; /* Ensure cards stack vertically */
+    justify-content: center;
+    width: 80%; /* Cards take up 80% of the width */
+  }
+  

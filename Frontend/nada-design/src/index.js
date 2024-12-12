@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import i18n from '../src/i18';
 import { I18nextProvider } from 'react-i18next'; // Import I18nextProvider
+import { UserProvider } from "./context/Usercontext";
 
 // import global_en from '../src/translations/en/global.json'
 // import global_hi from '../src/translations/hi/global.json'
@@ -24,11 +25,13 @@ import { I18nextProvider } from 'react-i18next'; // Import I18nextProvider
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
+   <UserProvider>
     <I18nextProvider i18n={i18n}> {/* Wrap your app with I18nextProvider */}
       <App />
     </I18nextProvider>
-  </React.StrictMode>
+    </UserProvider>
+  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

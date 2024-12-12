@@ -1,147 +1,55 @@
-/* General Styles */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  color: hsl(0, 0%, 20%);
-  background-size: cover;
+.footer {
+  background-color: #4a6572;
+  color: white;
+  padding: 20px 40px;
+  margin-top: 2px;
+  width: 96%;
 }
 
-/* Container Adjustments */
-.helpline-container {
-  max-width: 1200px; /* Reduced width */
-  margin: 40px auto; /* Centered container with spacing from top */
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  text-align: left;
-  color: #333;
-  /* background: #fff url('https://sportengland-production-files.s3.eu-west-2.amazonaws.com/s3fs-public/styles/max_width_1266px/public/2021-01/PA-55875259%20-%201266.jpg?VersionId=zVJoknym9gT3cgenq.BVR56G5XGZCzYX&itok=IdcoF3Ng') no-repeat center top; */
-  background-size: cover;
-
-
-}
-
-/* Header Section */
-.helpline-header {
-  text-align: left;
-  margin-bottom: 30px;
-  
-}
-
-.helpline-title {
-  font-size: 2rem; /* Reduced font size */
-  font-weight: bold;
-  color: #333;
-}
-
-.helpline-address,
-.helpline-phone,
-.helpline-email,
-.helpline-copyright {
-  font-size: 0.9rem; /* Reduced font size */
-  line-height: 1.5;
-}
-
-.helpline-email {
-  color: #28a745;
-  text-decoration: none;
-}
-
-.helpline-email:hover {
-  text-decoration: underline;
-}
-
-/* Navigation Menu */
-.helpline-nav {
+.footer-sections {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0;
-  padding: 15px 0; /* Reduced spacing */
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  flex-wrap: wrap;
 }
 
-.helpline-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.helpline-nav ul li {
-  font-size: 0.9rem; /* Reduced font size */
-  line-height: 1.5;
-  color: #333;
-}
-
-.helpline-nav ul li a {
-  text-decoration: none;
-  color: #333;
-}
-
-.helpline-nav ul li a:hover {
-  color: #28a745;
-  text-decoration: underline;
-}
-
-/* Footer Section */
-.helpline-footer {
-  margin-top: 30px; /* Reduced margin */
-  padding: 15px; /* Reduced padding */
-  background-color: #f1f1f1; /* Slightly darker footer background */
-  border-radius: 8px; /* Rounded footer corners */
-}
-
-.footer-subscribe {
-  text-align: left;
-}
-
-.footer-subscribe h3 {
-  font-size: 1rem; /* Reduced font size */
-  color: #333;
+.footer-heading {
+  color: #fdd835;
   margin-bottom: 10px;
 }
 
-.footer-input {
-  padding: 8px;
-  width: 200px; /* Reduced width */
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-right: 10px;
-}
-
-.footer-button {
-  padding: 8px 15px;
-  background-color: #28a745;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.footer-button:hover {
-  background-color: #218838;
+.footer-list {
+  list-style: none;
+  padding: 0;
+  line-height: 1.8;
 }
 
 .footer-icons {
-  margin-top: 10px; /* Reduced margin */
+  display: flex;
+  gap: 10px;
 }
 
-.footer-icons a {
-  margin: 0 8px; /* Reduced spacing */
-  color: #28a745;
-  font-size: 1rem; /* Reduced icon size */
+.footer-icons .icon-link {
+  color: white;
+  font-size: 20px;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-.footer-icons a:hover {
-  color: #218838;
+.footer-icons .icon-link:hover {
+  color: #fdd835;
 }
 
-.footer-credits {
-  margin-top: 15px; /* Reduced margin */
-  font-size: 0.8rem; /* Reduced font size */
-  color: #555;
-  text-align: center;
+.footer-acknowledgment {
+  margin-top: 30px;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer-logo {
+  width: 300px;
 }

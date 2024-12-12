@@ -5,7 +5,7 @@
 }
 
 /* Header */
-.header {
+.main-container .header {
   text-align: left;
   background-color: #00aaff;
   color: #fff;
@@ -14,14 +14,15 @@
 
 }
 
-.header h1 {
+.main-container .header h1 {
   font-size: 24px;
   margin-bottom: 10px;
   color: #fff;
+  text-align: center;
 }
 
-.contact-box {
-  display: inline-block;
+.main-container .contact-box {
+  display: inline-flexbox;
   text-align: center;
   background: #fff;
   padding: 15px;
@@ -30,19 +31,19 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.contact-box p {
+.main-container .contact-box p {
   margin: 0;
   font-size: 14px;
   color: #333;
 }
 
-.contact-info {
+.main-container .contact-info {
   display: flex;
   justify-content: center;
   margin-top: 10px;
 }
 
-.contact-number, .whatsapp-button {
+.main-container .contact-number, .whatsapp-button {
   background: #00aaff;
   color: #fff;
   border: none;
@@ -52,48 +53,48 @@
   cursor: pointer;
 }
 
-.contact-number:hover, .whatsapp-button:hover {
+.main-container .contact-number:hover, .whatsapp-button:hover {
   background: #007acc;
 }
 
 /* Content */
-.cont {
+.main-container .cont {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 40px 20px;
 }
 
-.image-section {
+.main-container .image-section {
   flex: 1;
   text-align: center;
 }
 
-.image-background {
+.main-container .image-background {
   background: #002244;
-  border-radius: 50%;
+  border-radius: 90%;
   display: inline-block;
-  padding: 20px;
+  padding: 10px;
 }
 
-.image-background img {
-  max-width: 100%;
-  height: auto;
+.main-container .image-background img {
+  width: 100%;
+  height: 50%;
   border-radius: 50%;
 }
 
-.text-section {
+.main-container .text-section {
   flex: 1;
   padding: 20px;
 }
 
-.text-section h2 {
+.main-container .text-section h2 {
   color: #007acc;
   font-size: 22px;
   margin-bottom: 10px;
 }
 
-.text-section p {
+.main-container .text-section p {
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 15px;

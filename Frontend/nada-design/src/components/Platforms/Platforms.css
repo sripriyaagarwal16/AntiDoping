@@ -6,29 +6,29 @@
     background-color: #f0f8ff;
   }
   
-  .card {
+  .card-container .card {
     text-align: center;
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 250px;
-    border: 1px solid #0b0b0b;
+    /* border: 1px solid #0b0b0b; */
     
   }
   
-  .icon img {
-    width: 200px;
-    height: 200px;
+  .card-container .icon img {
+    width: 120px;
+    height: 120px;
     margin-bottom: 15px;
   }
   
-  h3 {
+  .card-container  h3 {
     font-size: 1.1em;
     color: #333;
     text-transform: uppercase;
   }
-  .whatsapp-link {
+  .card-container .whatsapp-link {
     display: inline-block; /* Makes it behave like a block but keeps it inline */
     padding: 10px 20px; /* Adds padding around the text */
     background-color: #1ae966; /* WhatsApp green background */
@@ -44,10 +44,10 @@
     height:35px;
   }
   
-  .whatsapp-link:hover {
+  .card-container .whatsapp-link:hover {
     background-color: #128C7E; /* Darker shade of WhatsApp green on hover */
   }
-  .gmail-link {
+  .card-container .gmail-link {
     display: inline-block; /* Makes it behave like a block but keeps it inline */
     padding: 10px 20px; /* Adds padding around the text */
     background-color: #7356e9; /* Gmail red background */
@@ -65,11 +65,11 @@
 
   }
   
-  .gmail-link:hover {
+  .card-container .gmail-link:hover {
     background-color: #4d42ec; /* Darker shade of Gmail red on hover */
   }
   /* Streamlit Link Button */
-.streamlit-link {
+  .card-container .streamlit-link {
   background-color: #FF4B00; /* Streamlit's primary color */
   color: white; /* White text */
   border: none; /* Remove border */
@@ -87,6 +87,6 @@
 }
 
 /* Streamlit Link Button Hover Effect */
-.streamlit-link:hover {
+.card-container .streamlit-link:hover {
   background-color: #e64a00; /* Darker shade of Streamlit color on hover */
 }

@@ -1,0 +1,101 @@
+.custom-calendar {
+    width: 30%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left:775px;
+    margin-top: 10px;
+  }
+  
+  .custom-calendar.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .custom-calendar .calendar-header h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .today-btn {
+    background-color: #5a67d8;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .react-calendar {
+    border: none;
+    font-family: Arial, sans-serif;
+  }
+  
+  .react-calendar__tile {
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+  }
+  
+  .react-calendar__tile--now {
+    background-color: #edf2f7;
+    font-weight: bold;
+  }
+  
+  .react-calendar__tile--active {
+    background-color: #5a67d8;
+    color: white;
+  }
+  
+  .react-calendar__tile--highlight {
+    background-color: #bee3f8;
+    border: 1px solid #3182ce;
+  }
+/* Customize calendar width and height */
+.react-calendar {
+    width: 80%; /* Full width */
+    max-width: 1000px; /* Set the maximum width */
+    height: 80%; /* Adjust height based on the number of rows */
+    margin: 0 auto; /* Center the calendar */
+  }
+  
+  /* Adjust the size of calendar cells */
+  .react-calendar__tile {
+    height: 40px; /* Decrease the height of tiles (days) */
+    max-width: 80px; /* Control tile width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* Keep rounded look */
+    font-size: 14px; /* Adjust font size to fit smaller tiles */
+  }
+  
+  /* Adjust header navigation (month and arrows) */
+  .react-calendar__navigation {
+    margin-bottom: 10px; /* Adjust spacing between header and calendar */
+  }
+  
+  .react-calendar__navigation__label {
+    font-size: 16px; /* Adjust font size for header text */
+  }
+  
+  .react-calendar__navigation__arrow {
+    font-size: 18px; /* Adjust arrow size */
+  }
+  
+  /* Hide extra rows for neighboring months */
+  .react-calendar__month-view__days__day--neighboringMonth {
+    visibility: hidden; /* Or you can set display: none; */
+  }
+  
+  /* Highlighted date styles */
+  .react-calendar__tile--active {
+    background-color: #5a67d8;
+    color: white;
+  }
+    

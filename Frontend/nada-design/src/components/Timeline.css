@@ -1,0 +1,86 @@
+.timeline-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    color: #a45b1f;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .timeline-title .highlight-ethics {
+    color:#e0a96d; /* Gold-like color to emphasize 'Ethics Timeline' */
+    font-weight: bold;
+  }
+  
+  .timeline-container {
+    background-color: #fff8e1; /* Ancient theme background */
+    padding: 40px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+  }
+  
+  .timeline-event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e18e4b;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border:2px solid  black;
+  }
+  
+  .timeline-event:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .event-circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #D4AF37;
+    margin-bottom: 15px;
+  }
+  
+  .event-content {
+    text-align: center;
+  }
+  
+  .event-year {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  .event-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .event-image {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .event-detail {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .event-detail h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .event-image,.event-detail-image {
+    max-width: 80%;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 2px solid #D4AF37; /* Golden border */
+
+  }
+  

@@ -12,7 +12,7 @@ const Platforms = () => {
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX75e3tZM64uEybrSCaJBn2C4tYZgHxzPQmQ&s" alt="Secure Platform" />
         </div>
         <h3>{t('whistleblower.upload_proof')} </h3>
-        <a href="https://share.streamlit.io/your-link" target="_blank" rel="noopener noreferrer">
+        <a href="http://localhost:8501/" target="_blank" rel="noopener noreferrer">
           <button className="streamlit-link">{t('whistleblower.go_to_streamlit')}</button>
         </a>
       </div>
@@ -35,6 +35,7 @@ const Platforms = () => {
        </a>
         
       </div>
+      
     </div>
   );
 };

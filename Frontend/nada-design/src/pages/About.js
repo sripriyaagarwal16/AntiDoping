@@ -7,7 +7,7 @@ import Computers from "../assets/Computers.png"
 import WhyChooseUs from '../components/WhyChooseUs/WhyChooseUs';
 import Process from '../components/Process/Process';
 import { useTranslation } from 'react-i18next';
-
+import Footer from '../components/Helpline/Helpline';
 const About = () => {
   const { t } = useTranslation();
 
@@ -24,6 +24,7 @@ const About = () => {
       />
       <WhyChooseUs/>
       <Process/>
+      <Footer/>
 
  
 

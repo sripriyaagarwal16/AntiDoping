@@ -1,0 +1,105 @@
+.carousel-container {
+    position: absolute; /* Positioned relative to the hero section */
+    bottom: 4px; /* Distance from the bottom */
+    left: 4px; /* Distance from the left */
+    width: 600px; /* Increased the width of the carousel */
+    height: 300px; /* Decreased the height of the carousel */    
+    background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.7)
+    ); /* Gradient background */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Ensures content doesn't overflow */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+    color: white;
+    font-family: "Arial", sans-serif;
+    z-index: 2; /* Ensures carousel is above the video */
+    margin: 0; /* Ensure there's no external margin causing spacing */
+    padding-bottom: 0; /* No extra padding at the bottom */
+  }
+  
+  .carousel-container .carousel {
+    position: relative;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .carousel-container .slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .carousel-container  .slide .content  h2 {
+    font-size: xx-large; /* Compact and readable */
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: -25px;
+    text-align: center;
+
+  }
+  
+  .carousel-container  .highlight-orange {
+    color: #ffa500; /* Highlighted orange for focus */
+  }
+  
+  .carousel-container  .highlight-white {
+    color: #ffffff; /* White for secondary text */
+  }
+  .carousel-container  .content{
+    margin-left: 150px;
+  }
+  .carousel-container  .slide .content p {
+    font-size: 0.95rem; /* Smaller, responsive text */
+    margin-bottom: 15px;
+    line-height: 1.4;
+    color: #ddd;
+    text-align: justify;
+
+
+    
+  }
+  
+  .carousel-container  button {
+    background-color: #ff4500; /* Bright orange-red for buttons */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel-container  button:hover {
+    background-color: #ff6347; /* Softer red on hover */
+  }
+  
+  /* Dots Navigation */
+  .carousel-container  .dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 8px; /* Spacing between dots */
+  }
+  
+  .carousel-container   .dot {
+    width: 12px; /* Smaller size for dots */
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel-container   .dot.active {
+    background-color: #ffa500; /* Orange for the active dot */
+  }
+  
+  .carousel-container   .dot:hover {
+    background-color: #ff4500; /* Bright red for hover effect */
+  }
+  

@@ -7,7 +7,11 @@
       "whistleblower": "Whistleblower",
       "Collaborate": "Collaborate",
       "login":"Login",
-      "language":"Language"
+      "language":"Language",
+      "Profile":"User Profile",
+      "Logout":"Logout",
+      "Ancient Page":"Ancient Page",
+      "Complaint Status":"Complaint Status"
     },
 
    "home": {
@@ -27,7 +31,16 @@
     "prohibited_substances": "Prohibited Substances",
     "rti": "RTI",
     "legal_aid": "Legal Aid",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "NADAtitle":"NADA MISSION",
+    "NADAmission":"The National Anti-Doping Agency works to protect clean athletes, promote education, and enforce anti-doping regulations.Our mission is to ensure fair competition and protect the integrity of sports.",
+    "Investigation Higlights":"Investigation Highlights",
+    "basketball":"AI Uncovers Doping Scandal in Basketball League",
+    "basketball description":"'Advanced AI tools exposed a top player’s hidden doping scheme, leading to a two-year ban and preserving the integrity of the professional basketball league.",
+    "hockey":"Hockey Player Faces Doping Probe After Suspicious Test Results",
+    "hockey description":"An elite ice hockey player is under scrutiny following abnormal results in routine testing, prompting an investigation into possible doping violations.",
+    "badminton":"Top Badminton Star Under Investigation for Potential Doping",
+    "badminton description":"A leading badminton player is currently under investigation after irregularities were flagged in their biological passport, raising concerns of potential doping violations."
   },
     "About Us": {
           "heading": "LET'S TAKE A STEP TOWARDS FAIR GAME",
@@ -83,8 +96,8 @@
     "heading": "REVEAL - MAKE YOUR REPORT FOR FAIRNESS IN SPORT",
     "share_info_confidentially": "Share your information confidentially with the experts. Your report will remain secure, and you can choose to stay anonymous. Help protect the integrity of sports—your input matters!",
     "secure_platform": "Secure Platform",
-    "upload_proof": "UPLOAD YOUR PROOF",
-    "go_to_streamlit": "Go to Streamlit App",
+    "upload_proof": "Tell us what you saw",
+    "go_to_streamlit": "Use our NLP detection system",
     "whatsapp_messaging": "WHATSAPP MESSAGING",
     "chat_on_whatsapp": "Chat on WhatsApp",
     "anonymous_email": "ANONYMOUS EMAIL",

@@ -26,3 +26,13 @@
       transform: translateY(0);
     }
   }
+  .Adminpage .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-top: -500px;
+  }

@@ -1,0 +1,100 @@
+/* PlayerComparison.css */
+/* 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f9fc;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  } */
+  
+  .comparison-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comparison-container .player-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .comparison-container .player-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f8ff;
+    padding: 10px;
+    border-radius: 8px;
+    width: 45%;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* .comparison-container  .player-avatar {
+    width: 80px;
+    height: 80px;
+    background-color: #89c5dc;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+   */
+  .comparison-container  .sport-details {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .comparison-container  .sport-details h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .comparison-container .highlight {
+    color: #008b8b;
+  }
+  
+  .comparison-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .comparison-container  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .comparison-container th {
+    background-color: #e8f4fa;
+    font-weight: bold;
+  }
+  
+  .comparison-container .world-comparison {
+    width: 100%;
+    text-align: left;
+    background-color: #e8f4fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comparison-container  .world-comparison h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .comparison-container  .world-comparison p {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  

@@ -3,12 +3,13 @@ import Searchbar from '../components/SearchBar/SearchBar';
 import Slider from '../components/Slider/Slider';
 import '../components/Player.css'
 import { useTranslation } from 'react-i18next'; // Import i18next hook to handle language change
-
+import avatar from '../assets/avatar.png'
 const Player = () => {
   const { t } = useTranslation(); 
 
   return (
     <>
+    
       <Searchbar />
       {/* <button className="Prevdata">Previous Year Data</button> */}
 

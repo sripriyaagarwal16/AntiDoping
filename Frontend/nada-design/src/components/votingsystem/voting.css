@@ -1,0 +1,100 @@
+/* Style for the voting page */
+.voting-page {
+    background-image: url('https://t4.ftcdn.net/jpg/06/15/06/81/360_F_615068142_3siXSo1TWv7ebrf7OR0XdHurjzkcpJE3.jpg'); /* Replace with your stadium image URL */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: #fff; /* Ensures text is readable on darker background */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    filter: brightness(90%)
+  }
+  .voting-page::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.221); /* Semi-transparent dark overlay */
+    z-index: -1; /* Ensures the overlay is behind the content */
+  }
+  .voting-page p{
+    color:black;
+
+  }
+  
+  .voting-page h1{
+     color: black;
+     font-size: xx-large;
+     text-align: center;
+  }
+  /* Style for the vote buttons */
+  .vote-btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .vote-results p {
+    color: white; /* Change text color to white */
+    text-shadow: 2px 2px 4px black; /* Add black shadow with some offset */
+  }
+  
+  /* Styling for the Guilty button */
+  .vote-btn.guilty {
+    background-color: #ff4c4c;
+    color: #fff;
+  }
+  
+  .vote-btn.guilty:hover {
+    background-color: #ff0000;
+  }
+  
+  /* Styling for the Not Guilty button */
+  .vote-btn.not-guilty {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .vote-btn.not-guilty:hover {
+    background-color: #388e3c;
+  }
+  
+  /* Container for vote results (counts) */
+  .vote-results {
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    
+  }
+
+  /* Container for the graph */
+  .vote-graph {
+    margin-top: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  
+  /* Styling for the Chart container */
+  .chart-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  

@@ -1,0 +1,148 @@
+/* General styling */
+/* body {
+    font-family: 'Georgia', serif;
+    background-color: #f4f4f4; 
+    color: #3d3d3d;
+    margin: 0;
+    padding: 0;
+  }
+   */
+  /* Main wrapper */
+  .Trainingdiet{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff8e1; /* Light cream background for a soft look */
+    border-radius: 10px;
+  }
+  
+  /* Header styling */
+  .Trainingdiet .head {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .Trainingdiet .head h1 {
+    color: #4a3d32; /* Dark earthy brown */
+    font-size: 2.5rem;
+    text-align: left;
+    font-family: 'Georgia', serif;
+  }
+  
+  .Trainingdiet  .head .high {
+    color: #a45b1f; /* A rich ancient gold shade */
+    font-style: italic;
+  }
+  
+  /* Columns container */
+  .Trainingdiet .columns {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  /* Left column styling */
+  .Trainingdiet .left-column,
+  .center-column,
+  .right-column {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Text styling */
+  .Trainingdiet.left-column p,
+  .center-column p,
+  .right-column p {
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 1.6;
+    color: #3d3d3d;
+  }
+  
+  /* Highlight box */
+  .Trainingdiet .center-column .highlight-box {
+    background-color: #a45b1f; /* Ancient gold */
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  /* Scarf image styling */
+  .Trainingdiet .right-column .scarf-image {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Right column */
+  .Trainingdiet .right-column {
+    padding: 20px;
+    background-color: #f1e0d6; /* Light parchment-like background */
+    border-radius: 10px;
+  }
+  
+  /* Title and Highlights */
+  .Trainingdiet .left-column h2 {
+    font-size: 2rem;
+    color: #4a3d32;
+    font-family: 'Georgia', serif;
+  }
+  
+  .Trainingdiet .left-column h3 {
+    font-size: 1.5rem;
+    color: #a45b1f; /* Rich golden tone */
+  }
+  
+  .Trainingdiet .highlight-box h3 {
+    color: #fff8e1; /* Off-white for contrast */
+  }
+  
+  .Trainingdiet .highlight1 {
+    font-weight: bold;
+    color: #4a3d32;
+  }
+  
+  /* Links and Footer */
+  .Trainingdiet .right-column .website {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #a45b1f;
+  }
+  /* Image styling for Introduction section */
+.intro-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Image styling for Ayurveda section */
+  .ayurveda-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .scarf-image {
+    /* Add border and padding */
+    border: 2px solid #d1b19d; /* Light golden border to match the ancient theme */
+    padding: 5px;
+    margin-bottom: 20px; /* Space between images */
+  }
+  
+  /* Specific styling for wrestler-image */
+  .wrestler-image {
+    /* Same border style as scarf-image */
+    border: 2px solid #d1b19d;
+    padding: 5px;
+    margin-top: 20px; /* Space above the image */
+    width: 100%;
+  }  

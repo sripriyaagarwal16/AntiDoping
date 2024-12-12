@@ -1,0 +1,223 @@
+/* Base styles
+.process-container {
+    min-height: 100vh;
+   
+    padding: 24px;
+}
+
+.process-container .content-wrapper {
+    max-width: 6500px;
+    margin: 0 auto;
+    width:100%;
+    height:100%;
+    margin-top: -31px;
+
+}
+
+.process-container .content-wrapper  .card {
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width:100%;
+    height:100%;
+    margin-left: -20px;
+   
+}
+
+.process-container .card-header {
+    padding: 20px 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #063043, #023941);
+    color: white;
+    margin-top: -25px;
+    width: 100%;
+    margin-left: -20px;
+}
+
+.process-container .card-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.process-container .card-content {
+    padding: 24px;
+}
+
+.process-container .description {
+    color: #4a5568;
+    margin-bottom: 24px;
+    line-height: 1.5;
+}
+
+
+.process-container .steps-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.process-container .step-item {
+    padding: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid #e2e8f0;
+}
+
+.process-container .step-item.active {
+    background: linear-gradient(to right, rgba(0, 137, 123, 0.1), rgba(0, 172, 193, 0.1));
+    border: 2px solid #00897b;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.process-container .step-item:hover:not(.active) {
+    background-color: rgba(0, 137, 123, 0.05);
+}
+
+.process-container .step-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.process-container .step-icon {
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.process-container .step-item.active .step-icon {
+    background: linear-gradient(to right, #006089, #00acc1);
+    color: white;
+}
+
+.process-container .step-item:not(.active) .step-icon {
+    background-color: #e0f2f1;
+    color: #00897b;
+}
+
+.process-container .step-title {
+    font-weight: 600;
+    color: #2d3748;
+}
+
+.process-container .step-description {
+    font-size: 14px;
+    color: #4a5568;
+}
+
+
+.process-container .content-panel {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 137, 123, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+.process-container .panel-title {
+    color: #00897b;
+    font-weight: 600;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+.process-container .panel-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #4a5568;
+    text-align: justify;
+}
+
+.process-container .panel-content li {
+    margin-bottom: 8px;
+}
+
+
+.process-container .outcome-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.process-container .outcome-card {
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+.process-container .outcome-card.negative {
+    background-color: rgba(72, 187, 120, 0.1);
+    border-color: #48bb78;
+}
+
+.process-container .outcome-card.atypical {
+    background-color: rgba(237, 137, 54, 0.1);
+    border-color: #ed8936;
+}
+
+.process-container .outcome-card.adverse {
+    background-color: rgba(245, 101, 101, 0.1);
+    border-color: #f56565;
+}
+
+.process-container .outcome-title {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.process-container .outcome-card.negative .outcome-title {
+    color: #2f855a;
+}
+
+.process-container .outcome-card.atypical .outcome-title {
+    color: #c05621;
+}
+
+.process-container .outcome-card.adverse .outcome-title {
+    color: #c53030;
+}
+
+.process-container .outcome-description {
+    font-size: 14px;
+    color: #4a5568;
+}
+
+
+.process-container .note-container {
+    margin-top: 24px;
+    padding: 16px;
+    background-color: rgba(0, 172, 193, 0.1);
+    border: 1px solid rgba(0, 172, 193, 0.2);
+    border-radius: 8px;
+}
+
+.process-container .note-text {
+    font-size: 14px;
+    color: #4a5568;
+}
+
+.process-container .note-highlight {
+    color: #00acc1;
+    font-weight: 600;
+}
+
+
+@media (max-width: 768px) {
+    .process-container {
+        padding: 16px;
+    }
+    
+    .process-container .steps-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .process-container .card-title {
+        font-size: 20px;
+    }
+} */

@@ -17,7 +17,7 @@ const Slider = () => {
     {
       id: "C098665",
       name: "C098665",
-      description: "FOOTBALL",
+      description: "CRICKET",
       Age: "Age:32",
       image: "https://cdn.pixabay.com/photo/2023/09/19/21/18/ai-generated-8263485_1280.jpg",
     },
@@ -76,6 +76,12 @@ const Slider = () => {
                   onClick={() => navigate(`/assessment/${slide.id}`)}
                 >
                   Doping Risk Assessment
+                </button>
+                <button
+                  className="button"
+                  onClick={() => navigate('/comparison')}
+                >
+                  World Comparison
                 </button>
               </div>
             )}

@@ -85,7 +85,7 @@
      margin-top:70px;
  }
  
- h1 {
+ .content h1 {
      font-size: 48px;
      margin-bottom: 20px;
      animation: animate 1s ease-in-out 1 forwards;
@@ -97,7 +97,7 @@
  
  }
  
- p {
+ .content p {
      font-size: 18px;
      margin-bottom: 20px;
      animation: animate 1s ease-in-out 1 forwards;
